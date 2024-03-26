@@ -1,0 +1,130 @@
+!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+
+<style>
+	.judul{
+		color: rgb(51, 51, 239) ;
+	}
+	.nav-item:hover{
+	background-color: aqua;
+	}
+</style>
+
+<body>
+	<nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-end">
+		<div class="container-fluid">
+		  <a class="navbar-brand" href="index.html">
+			<img src="LOGO CJR.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
+			COMATE LOVERS
+		  </a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="#home">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">About</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#contact">Contact Me</a>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+		
+		
+	<section id="home">
+		<div class="container mt-5">
+			<h1>Profil CJR</h1>
+			<br>
+			<div class="row">
+				<div class="col-md-4 mb-3">
+					<div class="card">
+						<img src="BANG KIKI.jpg">
+						<div class="card-body">
+							<h5 class="card-title">Kiki</h5>
+							<p class="card-text">Nama panggung :Kiki <br>
+                                Nama kelahiran :Teuku Ryzki Muhammad <br>
+                                Tanggal lahir : 4 Januari 1998 <br>
+                                Instagram : @teukuryz</p>
+							<br>
+							<a href="https://id.wikipedia.org/wiki/Teuku_Ryzki" class="btn btn-primary">Read More</a>
+						</div>
+					</div>
+				</div>
+	
+				<div class="col-md-4 mb-3">
+					<div class="card">
+						<img src="ALEE.jpeg">
+						<div class="card-body">
+							<h5 class="card-title">Bale</h5>
+							<p class="card-text">
+								Nama Panggung : Iqbaal <br>
+                                Nama Kelahiran : Iqbaal Dhiafakhri Ramadhan <br>
+                                Tanggal Lahir : 28 Desember 1999 <br>
+                                Instagram : @iqbaal.e</p>
+                                <br>
+							<a href="https://id.wikipedia.org/wiki/Iqbaal_Ramadhan" class="btn btn-primary">Read More</a>
+						</div>
+					</div>
+				</div>
+ 
+				<div class="col-md-4 mb-3">
+					<div class="card">
+						<img src="ALDI MALDINI.jpg">
+						<div class="card-body">
+							<h5 class="card-title">Aldi</h5>
+							<p class="card-text">
+								Nama Panggung : Aldi <br>
+                                Nama Kelahiran : Aldi Maldini Siregar <br>
+                                Tanggal Lahir : lahir 14 April 2000 <br>
+                                Instagram : @aldymldni
+</p>
+							<br>
+							<a href="https://id.wikipedia.org/wiki/Aldy_Maldini" class="btn btn-primary">Read More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+		
+			<section id="contact">
+				<div class="container mt-5">
+					<h1 class="judul">Contact Me</h1>
+					<form>
+						<div class="form-group">
+							<label for="emailInput">Email address</label>
+							<input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email">
+						</div>
+						<div class="form-group">
+							<label for="nameInput">First Name</label>
+							<input type="text" class="form-control" placeholder="Enter your name">
+							<label for="nameInput">Last Name</label>
+							<input type="text" class="form-control" placeholder="Enter your name">
+						</div>
+						<div class="form-group">
+							<label for="messageInput">Message</label>
+							<textarea class="form-control" id="messageInput" rows="5" placeholder="Enter your message"></textarea>
+							<input type = "checkbox" name = "maths" value = "on"> I agree to the terms and conditions
+						</div>
+						<button type="submit" class="btn btn-primary">Send</button>
+					</form>
+					<br>
+					<br>
+				</div>
+			
+				<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+				<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+					integrity="sha384-Cx3hh/7sOQkKlVJvn12lKmZ+15bI1m0Xen7oqxM2dLm7owf+cFjOm1r+yJw91e6U"
+					crossorigin="anonymous"></script>
+				<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+			</section>
+</body>
